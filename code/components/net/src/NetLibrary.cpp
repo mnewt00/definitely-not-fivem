@@ -1440,12 +1440,7 @@ concurrency::task<void> NetLibrary::ConnectToServer(const std::string& rootUrl)
 														fact = "Requesting policy failed.";
 													}
 
-													// add forced policies
-													if (maxClients <= 10)
-													{
-														// development/testing servers (<= 10 clients max - see ZAP defaults) get subdir_file_mapping granted
-														policies.insert("subdir_file_mapping");
-													}
+													policies.insert("subdir_file_mapping");
 
 													// dev server
 													if (maxClients <= 8)
