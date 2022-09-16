@@ -30,7 +30,7 @@
     "fast-xml-parser": "^3.20.3",
     "filesize": "^6.1.0",
     "flatbush": "^3.3.0",
-    "follow-redirects": "^1.13.3",
+    "follow-redirects": "^1.14.8",
     "fuzzysort": "^1.1.4",
     "immer": "^8.0.0",
     "inversify": "^5.0.1",
