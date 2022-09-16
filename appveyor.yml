@@ -4,10 +4,8 @@ skip_tags: true
 environment:
   matrix:
   - IS_FXSERVER: 0
-    APPVEYOR_BUILD_WORKER_CLOUD: OMNITRON
     APPVEYOR_BUILD_WORKER_IMAGE: Visual studio 2019
   - IS_FXSERVER: 1
-    APPVEYOR_BUILD_WORKER_CLOUD: OMNITRON
     APPVEYOR_BUILD_WORKER_IMAGE: Visual studio 2019
     
 build_script:
