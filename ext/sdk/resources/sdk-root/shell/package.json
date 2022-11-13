@@ -37,7 +37,7 @@
     "inversify-inject-decorators": "^3.1.0",
     "isomorphic-git": "^1.10.2",
     "jsonc": "^2.0.0",
-    "minimatch": "^3.0.4",
+    "minimatch": "^3.0.5",
     "mkdirp": "^1.0.4",
     "mobx": "^6.2.0",
     "mobx-react-lite": "^3.2.0",
